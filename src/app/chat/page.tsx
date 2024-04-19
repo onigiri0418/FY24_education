@@ -1,7 +1,7 @@
 import {Message} from "@/app/api/messages/route";
 
-import MessageForm from "@/app/(chat)/MessageForm";
-import Messages from "@/app/(chat)/Messages";
+import MessageForm from "@/app/chat/MessageForm";
+import Messages from "@/app/chat/Messages";
 
 const getMessages = async () => {
     const res = await fetch('http://localhost:3000/api/messages', {
